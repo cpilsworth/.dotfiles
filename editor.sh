@@ -26,5 +26,5 @@ function use_sublime () {
   }
 }
 
-use_sublime
-
+# use_sublime
+export EDITOR=vim
