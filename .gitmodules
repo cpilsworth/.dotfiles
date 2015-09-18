@@ -1,3 +1,6 @@
-[submodule "seinfeld.sh"]
-	path = seinfeld.sh
-	url = https://github.com/collectiveidea/seinfeld.sh.git
+[submodule ".vim/bundle/command-t"]
+	path = .vim/bundle/command-t
+	url = https://github.com/wincent/command-t.git
+[submodule ".vim/bundle/vim-pathogen"]
+	path = .vim/bundle/vim-pathogen
+	url = https://github.com/tpope/vim-pathogen
