@@ -13,3 +13,4 @@ source $DF_BASE_PATH/git.sh
 source $DF_BASE_PATH/node.sh
 source $DF_BASE_PATH/ruby.sh
 source $DF_BASE_PATH/xquartz.sh
+source $DF_BASE_PATH/aem.sh
