@@ -1,3 +1,5 @@
+eval "$(hub alias -s)"
+
 if [ -n `which git` ]; then
   # Aliases
   alias gst='git status'
