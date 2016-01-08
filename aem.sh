@@ -20,4 +20,7 @@ function scr() {
   open $AEM_LOCAL/system/console/requests
 }
 
+alias mcia="mvn clean install -PautoInstallPackage"
+alias mcip="mvn clean install -PautoInstallPackagePublish"
+
 
