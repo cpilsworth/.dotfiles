@@ -1,1 +1,7 @@
-export DOCKER_HOST=tcp://192.168.59.103:2375
+docker() {
+  if [[ $@ == "cleanup" ]]; then
+    command docker rm $(docker ps -a -q) 
+  else 
+    command docker "$@"
+  fi
+}
