@@ -23,4 +23,8 @@ function scr() {
 alias mcia="mvn clean install -PautoInstallPackage"
 alias mcip="mvn clean install -PautoInstallPackagePublish"
 
-
+aem() {
+  if [[ $* == "author start" ]]; then
+    command ~/dev/apps/aem61/crx-quickstart/bin/start 
+  fi
+}
